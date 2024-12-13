@@ -1,6 +1,7 @@
 # Romi-Line-Follower
 Full Documentation on creating a line follower using a Romi Robot
-See Landing page for more information on Python code documentation: https://github.com/ChrisSchniepp/Romi-Line-Follower/blob/main/Doxygen/html/index.html
+See Landing page for more information on Python code documentation: https://<ChrisSchniepp>.github.io/<Romi-Line-Follower>/html/index.html
+
 
 ## Control Structure:
 
