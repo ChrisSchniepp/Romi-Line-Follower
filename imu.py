@@ -264,19 +264,3 @@ if __name__=="__main__":
     i2c = I2C(1, I2C.CONTROLLER)
     i2c.init(I2C.CONTROLLER, baudrate=20000)
     imu = IMU(i2c)
-
-"""
-An initializer that takes in a pyb.I2C object preconfigured in CONTROLLER mode.
-• A method to change the operating mode of the IMU to one of the many “fusion” modes
-available from the BNO055.
-• A method to retrieve and parse the calibration status byte from the IMU.
-• A method to retrieve the calibration coefficients from the IMU as a binary data.
-• A method to write calibration coefficients back to the IMU from pre-recorded binary data.
-• A method to read Euler angles from the IMU to use as measurements for feedback. You may
-also want a simpler method that returns individual Euler angles, such as the heading, as
-pitch and roll may not be very useful when Romi is driving on flat ground.
-• A method to read angular velocity from the IMU to use as measurements for feedback. As
-with the heading, you may want a method that returns individual angular velocities, such
-as the yaw rate (similar to heading rate).
-The BNO055 has other features that are not useful in our context; keep the code simple.
-"""
