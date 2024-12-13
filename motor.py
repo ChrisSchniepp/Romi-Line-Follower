@@ -52,7 +52,7 @@ class Motor:
             self.CH1.pulse_width_percent(duty)
         elif duty == 0:
             self.CH1.pulse_width_percent(0)
-        elif duty > -100 and duty < 0:
+        elif duty >= -100 and duty < 0:
             self.DIR.high()
             self.CH1.pulse_width_percent(-duty)
         else:
