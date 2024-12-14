@@ -13,6 +13,9 @@ However, to guide the Romi a line sensor is needed. Data from our line sensor wa
 
 Our code consists of two main loops, outer loop and inner loop. Outer loop deal with the line, yaw, and longitudal controllers while inner loop corrects the motor speeds. These functions also called upon many helper functions that can be seen in the main.py. The inner loop also has its own miniature state machines for specific movement sequences. Finite state machines for inner and outer loop functions can be found below.
 
+## Video Results
+
+
 ## Sensors and Parts Bought outside of Romi Kit
 
 IMU:
