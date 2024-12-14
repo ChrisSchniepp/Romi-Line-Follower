@@ -9,9 +9,21 @@ The main control structure used to make out Romi Line Follower was a cascading c
 
 However, to guide the Romi a line sensor is needed. Data from our line sensor was used to set the yaw rate, and longitudinal velocity was set manually. Our Line sensor, which can be found below in the Sensors section, had 8 sensors that we used to locate where the Romi was above the line. These values were used to find a centroid, where the middle of the line was 3.5. To get this value, we first normalized the values from 0 to 1 and then dictated what normalized value indicated line and no line. To do this we set a threshold, which was tuned based on our line sensors readings. This was found to be .9. Our threshold function then returns an array of 0s and 1s indicating where the line is. These points were then used to get our centroid. We put the line sensor in a PID control loop, whose output was the yaw setpoint.  
 
-## Code (Finite State Machines):
+## Code:
 
-Our code consists of two main loops, outer loop and inner loop. Outer loop deal with the line, yaw, and longitudal controllers while inner loop corrects the motor speeds. These functions also called upon many helper functions that can be seen in the main.py. The inner loop also has its own miniature state machines for specific movement sequences. Finite state machines for inner and outer loop functions can be found below.
+Our code consists of two main loops, outer loop and inner loop. Outer loop deal with the line, yaw, and longitudal controllers while inner loop corrects the motor speeds. These functions also called upon many helper functions that can be seen in the main.py. The inner loop also has its own miniature state machines for specific movement sequences. These specific sequences were navigating around a box and moving from finish back to start. Finite state machines for inner and outer loop functions can be found below.
+
+Task Diagram
+![image](https://github.com/user-attachments/assets/fbef46a5-7817-400f-a241-952cbdea11e3)
+
+Inner Loop
+![image](https://github.com/user-attachments/assets/81995771-aa29-4fe3-b032-877bd7be59ee)
+
+Outer Loop
+![image](https://github.com/user-attachments/assets/022cfe8e-22f1-47b4-9f6c-7e86920f31c5)
+
+
+
 
 ## Video Results
 
