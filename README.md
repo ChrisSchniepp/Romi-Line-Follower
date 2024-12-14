@@ -51,5 +51,5 @@ Left and right sensors were bought although for our purpose's only one side was 
 https://www.pololu.com/product/3673
 
 ### Authors 
-Chris Schniepp
+Chris Schniepp and 
 Miles Mikkelsen
