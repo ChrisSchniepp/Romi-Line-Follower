@@ -25,10 +25,8 @@ Outer Loop
 ![image](https://github.com/user-attachments/assets/022cfe8e-22f1-47b4-9f6c-7e86920f31c5)
 
 
-
-
 ## Video Results
-
+https://youtu.be/_j6A3AOVdVI?si=VVIaFSpuR5w5_0qR
 
 ## Sensors and Parts Bought outside of Romi Kit
 
