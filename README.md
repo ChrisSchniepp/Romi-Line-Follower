@@ -24,7 +24,3 @@ https://www.pololu.com/product/3672
 Bump Sensors:
 Left and right sensors were bought although for our purpose's only one side was needed
 https://www.pololu.com/product/3673
-
-
-
-## Results:
