@@ -17,9 +17,11 @@ Task Diagram
 ![image](https://github.com/user-attachments/assets/fbef46a5-7817-400f-a241-952cbdea11e3)
 
 Inner Loop
+
 ![image](https://github.com/user-attachments/assets/81995771-aa29-4fe3-b032-877bd7be59ee)
 
 Outer Loop
+
 ![image](https://github.com/user-attachments/assets/022cfe8e-22f1-47b4-9f6c-7e86920f31c5)
 
 
