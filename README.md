@@ -2,6 +2,8 @@
 Full Documentation on creating a line follower using a Romi Robot
 See Landing page for more information on Python code documentation: https://ChrisSchniepp.github.io/Romi-Line-Follower/html/index.html
 
+## Intro
+This project was made for ME 405 at Cal Poly. the project uses a Romi Robot, made by Polulu, to maneuver over a set course. We use a modified Nucleo board as our microcontroller which runs code in micropython. This course includes dashed lines, sharp turns, and an obstacle. The Romi Line Follower outlined below is designed for line courses with black lines on white paper.
 
 ## Control Structure:
 The main control structure used to make out Romi Line Follower was a cascading controller, where longitudinal velocity and yaw rate are used to set motor speeds. These motor speeds then have their own control loops. Each control loop was done with PID controllers. Gains ranged from 0 to 3. The image below describes the structure well. 
@@ -24,11 +26,19 @@ Outer Loop
 
 ![image](https://github.com/user-attachments/assets/022cfe8e-22f1-47b4-9f6c-7e86920f31c5)
 
+Obstacle Manuever:
+![image](https://github.com/user-attachments/assets/11107e4e-e9bb-4eb9-be4e-8a219b160080)
+
+
+
 
 ## Video Results
 https://youtu.be/_j6A3AOVdVI?si=VVIaFSpuR5w5_0qR
 
 ## Sensors and Parts Bought outside of Romi Kit
+
+Romi Robot:
+https://www.pololu.com/product/4022
 
 IMU:
 https://www.adafruit.com/product/2472
